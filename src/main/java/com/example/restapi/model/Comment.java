@@ -15,7 +15,8 @@ import java.time.LocalDateTime;
 public class Comment {
     @Id
     private long id;
+    private long postId;
     private String content;
-    //@JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape.STRING)
+    @JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape.STRING)
     private LocalDateTime created;
 }

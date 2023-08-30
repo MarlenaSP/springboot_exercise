@@ -19,9 +19,9 @@ public class Post {
     private long id;
     private String title;
     private String content;
-    //@JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape.STRING)
+    @JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape.STRING)
     private LocalDateTime created;
     @OneToMany
-    @JoinColumn(name = "post_id")
+    @JoinColumn(name = "postId")
     private List<Comment> comment;
 }
