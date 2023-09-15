@@ -12,6 +12,6 @@ public class PostDto {
     private long id;
     private String title;
     private String content;
-    @JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape.STRING)
+    //@JsonFormat(pattern = "yyyy-MM-dd", shape = JsonFormat.Shape.STRING)
     private LocalDateTime created;
 }
