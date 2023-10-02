@@ -2,8 +2,7 @@
 ## General Information:
 This project is a simple Spring Boot REST API, based on a Youtube course I'm learning from.
 The project generates test data: 100 posts and 100 comments, which we can view in swagger
-by calling the appropriate methods.The Rest API is secured through Spring Security.<br /> 
-Login data:<br />
+by calling the appropriate methods. The Rest API is secured through Spring Security. Login data:<br />
 Username: test<br />
 Password: test<br />
 
@@ -24,7 +23,7 @@ Password: test<br />
 
 ## Installation & Run
 
-- IntelliJ 2022 or Higher
+- IntelliJ 2022 or higher
 - Gradle 8.2.1
 
 Download this project: 
